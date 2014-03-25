@@ -1,0 +1,58 @@
+body{
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+header{
+	background: gray;
+}
+#logo{
+	margin: 0
+}
+#logo img{
+	margin: 0 auto;
+	padding: .8em 0;
+}
+.inicio{
+	background: green;
+	margin-top: 0;
+	border-top:solid 5px #fff;
+	color:#fff;
+}
+.inicio ul li{
+	display: inline-block;
+	margin-bottom: 1em;
+}
+.inicio ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin:5px;
+	transition:1s all ease;
+}
+.inicio ul li a:hover{
+	background: rgb(0,255,0);
+	padding: .5em 1em;
+	border-radius: 5px;
+	color: peru;
+	box-shadow: black 1px 1px 25px;
+}
+.segmento{
+	background: #fff;
+	width: 40%;
+	height: 150px;
+	overflow: hidden;
+	display: inline-block;
+	margin:1em 1em;
+	padding: .8em;
+	border-radius: 15px;
+	box-shadow: grey 1px 1px 25px;
+}
+footer{
+	background: green;
+	color: #fff;
+	padding: 2em 0;
+}
+footer p{
+	font-size: 20px;
+
+}
